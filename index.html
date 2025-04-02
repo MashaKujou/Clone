@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Clone prototype</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="left-section">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon"></div>
+      </div>
+      <div class="logo">
+        <h1>Prototype</h1>
+      </div>
+
+      
+    </div>
+    
+    <div class="middle-section">
+      <form class="search-form">
+        <input type="text" placeholder="Search" class="search-input">
+        <button class="search-button">
+          <span class="search-icon">🔍</span>
+        </button>
+      </form>
+      <button class="voice-search-button">
+        <span class="voice-icon">🎤</span>
+      </button>
+    </div>
+    
+    <div class="right-section">
+      <button class="upload-button">
+        <span class="upload-icon">📤</span>
+      </button>
+      <button class="apps-button">
+        <span class="apps-icon">☰</span>
+      </button>
+      <button class="notifications-button">
+        <span class="notifications-icon">🔔</span>
+      </button>
+      <button class="user-avatar">
+        <span class="avatar-icon">👤</span>
+      </button>
+    </div>
+    
+  </header>
+
+  <!-- Sidebar -->
+  <nav class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-item active">
+        <span class="sidebar-icon">🏠</span>
+        <span>Home</span>
+      </div>
+      <div class="sidebar-item">
+        <span class="sidebar-icon">🔥</span>
+        <span>Trending</span>
+      </div>
+      <div class="sidebar-item">
+        <span class="sidebar-icon">📚</span>
+        <span>Subscriptions</span>
+      </div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-item">
+        <span class="sidebar-icon">📁</span>
+        <span>Library</span>
+      </div>
+      <div class="sidebar-item">
+        <span class="sidebar-icon">⏱️</span>
+        <span>History</span>
+      </div>
+      <div class="sidebar-item">
+        <span class="sidebar-icon">▶️</span>
+        <span>Your videos</span>
+      </div>
+      <div class="sidebar-item">
+        <span class="sidebar-icon">⏰</span>
+        <span>Watch later</span>
+      </div>
+      <div class="sidebar-item">
+        <span class="sidebar-icon">👍</span>
+        <span>Liked videos</span>
+      </div>
+    </div>
+    <div class="sidebar-section">
+      <h3>Subscriptions</h3>
+      <div class="sidebar-item">
+        <span class="sidebar-icon">👤</span>
+        <span>Channel 1</span>
+      </div>
+      <div class="sidebar-item">
+        <span class="sidebar-icon">👤</span>
+        <span>Channel 2</span>
+      </div>
+      <div class="sidebar-item">
+        <span class="sidebar-icon">👤</span>
+        <span>Channel 3</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main class="content">
+    <!-- Category buttons -->
+    <div class="category-section">
+      <button class="category active">All</button>
+      <button class="category">Music</button>
+      <button class="category">Gaming</button>
+      <button class="category">Live</button>
+      <button class="category">News</button>
+      <button class="category">Sports</button>
+      <button class="category">Learning</button>
+    </div>
+
+    <!-- Videos grid -->
+    <div class="videos-grid">
+      <!-- Video 1 -->
+      <div class="video-card">
+        <div class="thumbnail">
+          <div class="thumbnail-img">
+            <img src="thumbnails/thumbnail1.png" alt="Video thumbnail">
+          </div>
+          <div class="video-time">10:15</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-icon">
+            <img src="icons/icon1.png" alt="Channel icon">
+          </div>
+          <div class="video-details">
+            <h3 class="video-title">REPO Mods That Makes Lategame More Exciting (NEW Enemy Type & Skills)</h3>
+            <p class="channel-name">The Viperian</p>
+            <p class="video-stats">32.3K views • 3 days ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="video-card">
+        <div class="thumbnail">
+          <div class="thumbnail-img">
+            <img src="thumbnails/thumbnail2.png" alt="Video thumbnail">
+          </div>
+          <div class="video-time">2:25</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-icon">
+            <img src="icons/icon2.png" alt="Channel icon">
+          </div>
+          <div class="video-details">
+            <h3 class="video-title">DECO*27 - Telepathy feat. Hatsune Miku</h3>
+            <p class="channel-name">DECO*27</p>
+            <p class="video-stats">11M views • 1 month ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video 3 -->
+      <div class="video-card">
+        <div class="thumbnail">
+          <div class="thumbnail-img">
+            <img src="thumbnails/thumbnail3.png" alt="Video thumbnail">
+          </div>
+          <div class="video-time">3:01</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-icon">
+            <img src="icons/icon2.png" alt="Channel icon">
+          </div>
+          <div class="video-details">
+            <h3 class="video-title">DECO*27 - Monitoring feat. Hatsune Miku</h3>
+            <p class="channel-name">DECO*27</p>
+            <p class="video-stats">48M views • 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video 4 -->
+      <div class="video-card">
+        <div class="thumbnail">
+          <div class="thumbnail-img">
+            <img src="thumbnails/thumbnail4.png" alt="Video thumbnail">
+          </div>
+          <div class="video-time">3:48</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-icon">
+            <img src="icons/icon3.png" alt="Channel icon">
+          </div>
+          <div class="video-details">
+            <h3 class="video-title">Obsolete Meat / Hatsune Miku & Kasane Teto</h3>
+            <p class="channel-name">32ki</p>
+            <p class="video-stats">15M views • 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- More videos (5-8) -->
+      <div class="video-card">
+        <div class="thumbnail">
+          <div class="thumbnail-img">
+            <img src="thumbnails/thumbnail5.png" alt="Video thumbnail">
+          </div>
+          <div class="video-time">2:37</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-icon">
+            <img src="icons/icon3.png" alt="Channel icon">
+          </div>
+          <div class="video-details">
+            <h3 class="video-title">Mesmerizer / Hatsune Miku＆Kasane Teto</h3>
+            <p class="channel-name">32ki</p>
+            <p class="video-stats">128M views • 11 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <div class="thumbnail">
+          <div class="thumbnail-img">
+            <img src="thumbnails/thumbnail6.png" alt="Video thumbnail">
+          </div>
+          <div class="video-time">9:45</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-icon">
+            <img src="icons/icon4.png" alt="Channel icon">
+          </div>
+          <div class="video-details">
+            <h3 class="video-title">雑魚 / 亞北ネル</h3>
+            <p class="channel-name">Hiiragi Magnetite</p>
+            <p class="video-stats">6.3M views • 3 weeks ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <div class="thumbnail">
+          <div class="thumbnail-img">
+            <img src="thumbnails/thumbnail7.png" alt="Video thumbnail">
+          </div>
+          <div class="video-time">2:22</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-icon">
+            <img src="icons/icon4.png" alt="Channel icon">
+          </div>
+          <div class="video-details">
+            <h3 class="video-title">テトリス</h3>
+            <p class="channel-name">Hiiragi Magnetite</p>
+            <p class="video-stats">12M views • 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <div class="thumbnail">
+          <div class="thumbnail-img">
+            <img src="thumbnails/thumbnail8.png" alt="Video thumbnail">
+          </div>
+          <div class="video-time">2:37</div>
+        </div>
+        <div class="video-info">
+          <div class="channel-icon">
+            <img src="icons/icon2.png" alt="Channel icon">
+          </div>
+          <div class="video-details">
+            <h3 class="video-title">DECO*27 - Neverland feat. Hatsune Miku</h3>
+            <p class="channel-name">DECO*27</p>
+            <p class="video-stats">3.2M views • 5 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Dark mode toggle button -->
+  <button class="dark-mode-toggle" id="darkModeToggle">
+    🌓
+  </button>
+
+  <!-- dark mode -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const darkModeToggle = document.getElementById('darkModeToggle');
+      const body = document.body;
+      
+      
+      if (localStorage.getItem('darkMode') === 'enabled') {
+        body.classList.add('dark-mode');
+        darkModeToggle.textContent = '☀️';
+      } else {
+        darkModeToggle.textContent = '🌙';
+      }
+      
+      // Toggle dark mode
+      darkModeToggle.addEventListener('click', function() {
+        body.classList.toggle('dark-mode');
+        
+        if (body.classList.contains('dark-mode')) {
+          localStorage.setItem('darkMode', 'enabled');
+          darkModeToggle.textContent = '☀️';
+        } else {
+          localStorage.setItem('darkMode', 'disabled');
+          darkModeToggle.textContent = '🌙';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
